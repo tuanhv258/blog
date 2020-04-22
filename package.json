@@ -1,6 +1,6 @@
 {
-  "name": "react-blog-github",
-  "homepage": "https://tuanhv258.github.io/react-blog-github",
+  "name": "blog",
+  "homepage": "https://tuanhv258.github.io/blog",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
