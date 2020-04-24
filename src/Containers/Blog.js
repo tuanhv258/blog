@@ -53,7 +53,7 @@ const Blog = () => {
       }
     }
   }, [loading, error, data]);
-
+  console.log('post', posts);
   return (
     <>
       <Header />
@@ -61,7 +61,7 @@ const Blog = () => {
         {
           loading
           ? <Loader />
-          : posts.map((v, i) => {
+          : posts.reverse().map((v, i) => {
               return <Card blog={v} key={i} />;
             })
         }
